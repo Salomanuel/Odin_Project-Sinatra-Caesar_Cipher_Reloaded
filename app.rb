@@ -2,5 +2,5 @@ require "sinatra"
 require "sinatra/reloader" if development?
 
 get "/" do
-	"hey there"
+	erb :index, layout: :main
 end
