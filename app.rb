@@ -2,5 +2,6 @@ require "sinatra"
 require "sinatra/reloader" if development?
 
 get "/" do
-	erb :index, layout: :main
+	@title = "form page"
+	erb :index
 end
