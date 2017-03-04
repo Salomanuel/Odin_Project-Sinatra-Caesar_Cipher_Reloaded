@@ -1,7 +1,7 @@
 # caesar_cipher("What a string!", 5)
 # => "Bmfy f xywnsl!"
 
-def caesar_cipher(string, shift)
+def caesar_cipher(string, shift=5)
 	alphabet   = ("a".."z").to_a
 								
 	new_string = string.split("").map do |l|
