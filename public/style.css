@@ -3,8 +3,6 @@ body	    {margin-left:20px;background-color:#272822; font-size:1em; color:#ccc; 
 
 h1        {font-weight:300; font-size:2.5em; margin:5px 0 -10px 20px;}
 
-p         {position:static;display:block;}
-
 #topBar, #bottomBar
           {width:100%; position:fixed; 
           background-color:#373832; color:#ccc; box-shadow: 0 0 10px red;} 
@@ -25,9 +23,3 @@ table, form
             }
             
 form    {width:400px;}
-
-input[type="number"] {width:35px;}
-
-.divTab {width:20px; height:20px; border:1px solid black;background-color:#555;}
-
-td      {padding:0; margin:0;}
