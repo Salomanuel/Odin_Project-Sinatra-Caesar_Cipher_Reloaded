@@ -6,3 +6,8 @@ get "/" do
 	@comment = 'Ruby on Rails >> Sinatra >> <a href="http://www.theodinproject.com/courses/ruby-on-rails/lessons/sinatra-project?ref=lnav">Project: Sinatra Project</a>'
 	erb :index
 end
+
+post "/" do
+	@text = params[:text]
+	erb :results
+end
