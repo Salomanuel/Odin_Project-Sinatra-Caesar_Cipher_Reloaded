@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>Caesar's coso</title>
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<h1> 	<%= @title %> </h1>
+	<div id="topBar"> <h1> 	<%= @title %> </h1> </div>
 	<p>		<%= yield %>	</p>
+	<div id="bottomBar">created by <a href="https://github.com/Salomanuel">Salomanuel</a></div>
 </body>
 </html>
