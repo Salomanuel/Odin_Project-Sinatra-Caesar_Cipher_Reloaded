@@ -18,6 +18,7 @@ GEM
     i18n (0.8.1)
     minitest (5.10.1)
     multi_json (1.12.1)
+    pg (0.19.0)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -45,9 +46,10 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  pg
   sinatra
   sinatra-contrib
   sqlite3
 
 BUNDLED WITH
-   1.12.1
+   1.14.6
