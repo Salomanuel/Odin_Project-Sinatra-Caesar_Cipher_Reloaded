@@ -9,6 +9,7 @@ get "/" do
 end
 
 post "/" do
+	@title  = "Cipher results"
 	@text   = params[:text]
 	@cypher = caesar_cipher(@text)
 	erb :results
